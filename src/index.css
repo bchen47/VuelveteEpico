@@ -1,0 +1,17 @@
+.card{
+    height: 100%;
+}
+.logo{
+    height: 50px;
+}
+.main{
+    padding:10px;
+}
+.row-items{
+    justify-content: center;
+    padding: 10px;
+}
+.row-item{
+    justify-content: center;
+
+}

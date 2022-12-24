@@ -1,0 +1,48 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "counter-app/MyContract": [
+      {
+        "address": "0xf58786BF480Fc76CCce77d92A59be3C8EF33b3B6",
+        "kind": "NonProxy",
+        "bytecodeHash": "49619f29c177a0cb13abc2b54f18f09bffbc26664eb752a84fe01cc5c598aca7"
+      },
+      {
+        "address": "0x93f3c6cf56369F2Cdb9ADE569432cb344aD28d54",
+        "kind": "NonProxy",
+        "bytecodeHash": "49619f29c177a0cb13abc2b54f18f09bffbc26664eb752a84fe01cc5c598aca7"
+      },
+      {
+        "address": "0x11C133e977E4c5E48d4964F16C6c30783ff92192",
+        "kind": "NonProxy",
+        "bytecodeHash": "de37fb6fa07b0e4e319a54a4a72dfa314a623a658a1fb118a781066bb60fa6df"
+      },
+      {
+        "address": "0xd1C0FcF439d620005709165A5ee510d24f26938d",
+        "kind": "NonProxy",
+        "bytecodeHash": "de37fb6fa07b0e4e319a54a4a72dfa314a623a658a1fb118a781066bb60fa6df"
+      },
+      {
+        "address": "0xC1eF9664c1515fF7E4287d635c53159B4B3ADB5D",
+        "kind": "NonProxy",
+        "bytecodeHash": "49619f29c177a0cb13abc2b54f18f09bffbc26664eb752a84fe01cc5c598aca7"
+      }
+    ],
+    "counter-app/Migrations": [
+      {
+        "address": "0xB4a1de596eF98240Bb3A313421eD2868D62E10E0",
+        "kind": "NonProxy",
+        "bytecodeHash": "b2e657aa7e957d531d524c336e876be5e8ef96e617610f1ae31b4a599c39a7eb"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": {
+      "package": "0x32f900EBfB654586702595B5C95D86AF36F014Bb",
+      "version": "3.0.0",
+      "customDeploy": true
+    }
+  }
+}
